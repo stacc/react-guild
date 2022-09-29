@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-# Welcome to our first meeting
+# Welcome! 👋
 
 ## 📄 Agenda
 
