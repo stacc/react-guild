@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: React Best Practices
+  name: react-best-practices
+  description: Best practices for React development
+  tags:
+    - react
+    - nextjs
+    - javascript
+    - typescript
+    - frontend
+spec:
+  owner: react-guild
