@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="description"
+      content="Stacc - Packages radar. Made for helping react developers at Stacc choosing which packages to use in their projects."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stacc - React packages radar</title>
+    <link rel="shortcut icon" href="https://stacc.com/favicon-32x32.png" />
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="radar.js"></script>
+
+    <link rel="stylesheet" href="radar.css" />
+  </head>
+
+  <body>
+    <svg id="radar"></svg>
+
+    <script>
+      radar_visualization({
+        svg_id: "radar",
+        width: 1450,
+        height: 1000,
+        colors: {
+          background: "#fff",
+          grid: "#bbb",
+          inactive: "#ddd",
+        },
+        title: "Stacc - React packages radar - 2020-09-01",
+        quadrants: [
+          { name: "State / Form management" },
+          { name: "UI" },
+          { name: "Styling" },
+          { name: "Meta frameworks" },
+        ],
+        rings: [
+          { name: "ADOPT", color: "#66CD73" },
+          { name: "TRIAL", color: "#9966CD" },
+          { name: "ASSESS", color: "#FFBA30" },
+          { name: "HOLD", color: "#AD362B" },
+        ],
+        print_layout: true,
+        entries: [
+          {
+            quadrant: 3,
+            ring: 0,
+            label: "Next.js",
+            link: "https://nextjs.org/",
+            active: true,
+            moved: 0,
+          },
+          {
+            quadrant: 3,
+            ring: 2,
+            label: "Remix",
+            active: true,
+          },
+          {
+            quadrant: 3,
+            ring: 3,
+            label: "CRA (create-react-app)",
+            active: true,
+          },
+          {
+            quadrant: 3,
+            ring: 1,
+            label: "Vite",
+            active: true,
+          },
+          {
+            quadrant: 0,
+            ring: 3,
+            label: "Formik",
+            active: true,
+          },
+          {
+            quadrant: 0,
+            ring: 0,
+            label: "React Hook Form",
+            active: true,
+          },
+          {
+            quadrant: 0,
+            ring: 3,
+            label: "Redux",
+            active: true,
+          },
+          {
+            quadrant: 1,
+            ring: 0,
+            label: "Headless UI",
+            active: true,
+          },
+          {
+            quadrant: 2,
+            ring: 0,
+            label: "Tailwind",
+            active: true,
+          },
+          {
+            quadrant: 2,
+            ring: 1,
+            label: "Styled Components",
+            active: true,
+          },
+        ],
+        //ENTRIES
+      });
+    </script>
+
+    <table>
+      <tr>
+        <td>
+          <h3>What is the Package Radar?</h3>
+
+          <p>
+            The Stacc React Package Radar is a list of technologies,
+            complemented by an assessment result, called
+            <em>ring assignment</em>. We use four rings with the following
+            semantics:
+          </p>
+
+          <ul>
+            <li>
+              <strong>ADOPT</strong> &mdash; Technologies we have high
+              confidence in to serve our purpose, also in large scale.
+              Technologies with a usage culture in our Stacc production
+              environment, low risk and recommended to be widely used.
+            </li>
+            <li>
+              <strong>TRIAL</strong> &mdash; Technologies that we have seen work
+              with success in project work to solve a real problem; first
+              serious usage experience that confirm benefits and can uncover
+              limitations. TRIAL technologies are slightly more risky; some
+              engineers in our organization walked this path and will share
+              knowledge and experiences.
+            </li>
+            <li>
+              <strong>ASSESS</strong> &mdash; Technologies that are promising
+              and have clear potential value-add for us; technologies worth to
+              invest some research and prototyping efforts in to see if it has
+              impact. ASSESS technologies have higher risks; they are often
+              brand new and highly unproven in our organisation. You will find
+              some engineers that have knowledge in the technology and promote
+              it, you may even find teams that have started a prototyping
+              effort.
+            </li>
+            <li>
+              <strong>HOLD</strong> &mdash; Technologies not recommended to be
+              used for new projects. Technologies that we think are not (yet)
+              worth to (further) invest in. HOLD technologies should not be used
+              for new projects, but usually can be continued for existing
+              projects.
+            </li>
+          </ul>
+        </td>
+        <td>
+          <h3>What is the purpose?</h3>
+
+          <p>
+            The package radar is supposed to help you to find the right react
+            package for your project. It is based on the
+            <a href="https://www.thoughtworks.com/radar"
+              >ThoughtWorks Technology Radar</a
+            >
+            and the
+            <a href="https://engineering.zalando.com/tags/tech-radar.html"
+              >Zalando Tech Radar</a
+            >.
+          </p>
+
+          <h3>How do we maintain it?</h3>
+
+          <p>
+            The Package Radar is maintained by our
+            <em>React Guild</em> &mdash; who are people at Stacc that are
+            enthusiastic about React and want to share their knowledge with
+            others. We meet every month to discuss new technologies and packages
+            that we think are interesting and should be included in the radar.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

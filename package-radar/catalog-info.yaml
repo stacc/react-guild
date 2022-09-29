@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: Stacc - React Package Radar
+  name: stacc-react-package-radar
+  description: A package radar for React
+  tags:
+    - react
+    - nextjs
+    - javascript
+    - typescript
+    - frontend
+spec:
+  owner: react-guild
