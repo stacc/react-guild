@@ -4,6 +4,10 @@ metadata:
   title: Stacc - React Package Radar
   name: stacc-react-package-radar
   description: A package radar for React
+  links:
+    - url: https://stacc.github.io/react-guild/package-radar/
+      title: React Package Radar
+      icon: github
   tags:
     - react
     - nextjs

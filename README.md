@@ -31,3 +31,8 @@ Each meeting has a theme that is decided on beforehand. To keep the sessions foc
 
 1. I suggest having a monthly meeting. With people being split geographically it would also be nice to organize a biannual physical meeting.
 2. The initial meeting will be vital as we want everyone to share the same ambition for the group. Read more on this in this [report](https://sintef.brage.unit.no/sintef-xmlui/bitstream/handle/11250/2640192/Moe+Spotify+guilds+Cultivating+knowledge+sharing+in+large-scale+agile+organizations.pdf?sequence=2)
+
+## Links
+
+1. [Package Radar](https://stacc.github.io/react-guild/package-radar/)
+2. [Best Practices](https://stacc.github.io/react-guild/best-practices/)

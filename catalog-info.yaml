@@ -9,8 +9,8 @@ metadata:
     - typescript
     - frontend
   links:
-    - url: https://github.com/stacc/react-guild
-      title: GitHub
+    - url: https://stacc.github.io/react-guild/
+      title: React Guild Homepage
       icon: github
 spec:
   type: team

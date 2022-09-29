@@ -4,6 +4,10 @@ metadata:
   title: React Best Practices
   name: react-best-practices
   description: Best practices for React development
+  links:
+    - url: https://stacc.github.io/react-guild/best-practices/
+      title: React Best Practices
+      icon: github
   tags:
     - react
     - nextjs
