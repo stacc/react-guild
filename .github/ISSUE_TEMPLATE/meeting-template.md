@@ -1,7 +1,7 @@
 ---
 name: Meeting template
 about: Template for creating a new meeting agenda
-title: "#[NUMBER] - Meeting agenda"
+title: "[THEME] - Meeting agenda"
 labels: meeting
 assignees: ''
 
